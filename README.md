@@ -25,11 +25,3 @@ This repository contains the documentation and evidence for Individual Assignmen
 ## 4. Challenges Faced & Solutions
 - **File Name Pattern Error (ORA-65005):** The initial creation command failed due to an incorrect file path. I identified the correct local path (`C:\APP\SMARTDEVICE\...`) from the error log and updated the `FILE_NAME_CONVERT` parameter.
 - **OEM Login Issues:** Encountered an "Invalid Database Credentials" error. This was solved by ensuring the login was performed using the `SYSDBA` role.
-
-## 5. Submission Details
-- **PDB Name Created:** MU_pdb_28869
-- **Issues Encountered:** Yes
-- **Repository Link:** [Insert Your GitHub Link Here]
-
-## 6. Integrity Statement
-[cite_start]I confirm that this is a mandatory individual practical assignment and reflects my own individual work and execution[cite: 102].

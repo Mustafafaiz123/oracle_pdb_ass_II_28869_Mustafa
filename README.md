@@ -26,3 +26,20 @@ This repository contains the documentation and evidence for Individual Assignmen
 ## 4. Challenges Faced & Solutions
 - **File Name Pattern Error (ORA-65005):** The initial creation command failed due to an incorrect file path. I identified the correct local path (`C:\APP\SMARTDEVICE\...`) from the error log and updated the `FILE_NAME_CONVERT` parameter.
 - **OEM Login Issues:** Encountered an "Invalid Database Credentials" error. This was solved by ensuring the login was performed using the `SYSDBA` role.
+
+# Assignment Submission Checklist
+✅ Repository Name: My repository is named exactly oracle_pdb_ass_II_28869_Mustafa.
+
+✅ Public Access: I have verified that my GitHub repository is set to PUBLIC.
+
+✅ Screenshots Folder: I created a folder named screenshots/ and uploaded all required evidence.
+
+✅ Task 1 Evidence: I included a screenshot showing the successful creation of MU_pdb_28869 and its status as READ WRITE.
+
+✅ Task 2 Evidence: I included a screenshot of the creation and successful dropping of the temporary PDB MU_to_delete_pdb_28869.
+
+✅ Task 3 Evidence (OEM): I included the screenshot of the Oracle Enterprise Manager Dashboard showing my environment and the list of Containers.
+
+✅ Challenges Documented: I have explained the solutions for the File Path (SMARTDEVICE) and OEM Login (SYSDBA) issues in the README.
+
+✅ Integrity Statement: I have included the mandatory statement confirming this is my individual work.

@@ -1,26 +1,35 @@
-# oracle_pdb_ass_II_28869_Mustafa
-**Create a New Pluggable Database**
+# Oracle Pluggable Database Management Assignment II
+**Student Name:** Mustafa
+**Student ID:** 28869
 
 ## 1. Overview
 This repository contains the documentation and evidence for Individual Assignment II, focused on managing Oracle Pluggable Databases (PDBs) and configuring Oracle Enterprise Manager (OEM).
 
-![WhatsApp Image 2026-02-16 at 9 11 51 AM](https://github.com/user-attachments/assets/b713b261-ca0e-4c72-a19f-617d0d4e65be)
+## 2. Oracle Environment
+- **Database Version:** Oracle Database 21c Express Edition
+- **Operating System:** Microsoft Windows x86 64-bit
 
-**2.Open the PDB and Verify State:**
-<img width="926" height="398" alt="image" src="https://github.com/user-attachments/assets/795baba5-4a33-4c7a-96b9-24d77101791e" />
+## 3. Task Execution
+### Task 1: Create a Permanent PDB
+- Created a PDB named `MU_pdb_28869`.
+- Created an administrative user `Mustafa_plsqlauca_28869` with DBA privileges.
 
-**Grant Permissions to the User:**
-![WhatsApp Image 2026-02-16 at 9 17 00 AM](https://github.com/user-attachments/assets/2c78714f-81e5-4b9d-a857-e19a598736c2)
+### Task 2: Temporary PDB Management
+- Created a temporary PDB named `MU_to_delete_pdb_28869`.
+- Verified the creation, then successfully closed and dropped it including all datafiles.
 
-# Task 2: Create and Delete a Temporary PDB
-<img width="916" height="554" alt="image" src="https://github.com/user-attachments/assets/cf37170e-bb7e-4245-95b8-b5b884013bff" />
+### Task 3: Oracle Enterprise Manager (OEM)
+- Successfully accessed the OEM Database Express dashboard.
+- Confirmed that the dashboard reflects the created PDBs and system resources.
 
-**Verify and then Delete:**
-<img width="936" height="948" alt="image" src="https://github.com/user-attachments/assets/d1bd4938-45fa-414c-9a16-c343590aa407" />
+## 4. Challenges Faced & Solutions
+- **File Name Pattern Error (ORA-65005):** The initial creation command failed due to an incorrect file path. I identified the correct local path (`C:\APP\SMARTDEVICE\...`) from the error log and updated the `FILE_NAME_CONVERT` parameter.
+- **OEM Login Issues:** Encountered an "Invalid Database Credentials" error. This was solved by ensuring the login was performed using the `SYSDBA` role.
 
-# Task 3: Oracle Enterprise Manager (OEM)
-<img width="1860" height="952" alt="image" src="https://github.com/user-attachments/assets/5309bc52-a635-45eb-a126-f76859c0665f" />
+## 5. Submission Details
+- **PDB Name Created:** MU_pdb_28869
+- **Issues Encountered:** Yes
+- **Repository Link:** [Insert Your GitHub Link Here]
 
-## Challenges Faced and Solutions
-- **File Path Mismatch (ORA-65005):** The initial script failed because the file path didn't match the local system. I solved this by identifying the correct path (`C:\APP\SMARTDEVICE\...`) provided in the error message.
-- **Login Issues:** Encountered "Invalid Database Credentials" in OEM. Solved by ensuring the login was executed with the **SYSDBA** role.
+## 6. Integrity Statement
+[cite_start]I confirm that this is a mandatory individual practical assignment and reflects my own individual work and execution[cite: 102].
